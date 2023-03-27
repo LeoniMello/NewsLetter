@@ -39,7 +39,7 @@ body {
 }
 
 #logo {
-  width: 389px;
+
   height: 94px;
   margin: 50px 30px;
 }
@@ -160,6 +160,12 @@ body {
 }
 
 /*responsividade do site */
+
+@media (max-width: 1000px) {
+  #image-bg {
+    display: none;
+  }
+}
 
 @media (max-width: 647px) {
   #conteudo {

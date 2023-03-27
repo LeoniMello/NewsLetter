@@ -44,10 +44,13 @@ body {
 
 /*texto----------------------*/
 #text {
-  width: 647px;
-  height: 102px;
+  width: 100vw;
+  height: 100vh;
   margin: 92px 36px;
   margin-bottom: 50px;
+
+  max-width: 647px;
+  max-height: 102px;
 }
 
 .titulo {
@@ -57,6 +60,7 @@ body {
   font-weight: 700;
   margin-bottom: 11px;
   font-family: 'Work Sans';
+
 }
 
 .subtitulo {
@@ -101,11 +105,12 @@ body {
 }
 
 .mail input{
-  width: 750px;
+  width: 100vw;
   height: 48px;
   border: 0;
   border-left: #08c05e 5px solid;
   padding: 0;
+  max-width: 750px;
 }
 
 .botão button{

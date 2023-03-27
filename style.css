@@ -30,6 +30,8 @@ body {
   z-index: 1;
   left: auto;
   right: 0px;
+
+  
 }
 
 #image-bg img {
@@ -44,13 +46,10 @@ body {
 
 /*texto----------------------*/
 #text {
-  width: 100vw;
-  height: 100vh;
+  width: 647px;
+  height: 102px;
   margin: 92px 36px;
   margin-bottom: 50px;
-
-  max-width: 647px;
-  max-height: 102px;
 }
 
 .titulo {
@@ -105,12 +104,11 @@ body {
 }
 
 .mail input{
-  width: 100vw;
+  width: 750px;
   height: 48px;
   border: 0;
   border-left: #08c05e 5px solid;
   padding: 0;
-  max-width: 750px;
 }
 
 .botão button{
@@ -157,6 +155,47 @@ body {
 
 .leitura .icon img {
   width: 24px;
-  height: 24px;  
+  height: 24px;
+  margin-right: 0px;  
+}
+
+/*responsividade do site */
+
+@media (max-width: 647px) {
+  #conteudo {
+    width: 411px;
+  }
+  
+  #image-bg {
+    display: none;
+  }
+   
+  #logo img {
+    width: 322px;
+  }
+  
+  #text{
+    width: 322px;
+    margin: 132px 26px;
+    margin-top: 70px;
+    
+  }
+
+  #formulario form {
+    width: 322px;
+    margin: 0px 26px;
+  }
+  
+  #formulario p {
+    margin: 0px 26px;
+  }
+
+  .mail input {
+    width: 322px;
+  }
+
+  .leitura {
+    margin: 40px 26px;
+  }
 }
 
